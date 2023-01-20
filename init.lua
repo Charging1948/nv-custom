@@ -10,10 +10,6 @@ vim.o.scrolloff = 8
 -- set scale factor for neovide
 vim.g.neovide_scale_factor=1.0
 
--- function ChangeScaleFactor(delta)
---     vim.g.neovide_scale_factor = vim.g.neovide_scale_factor * delta
--- end
-
 -- set guifont for neovide
 vim.o.guifont = "FiraCode Nerd Font Mono:h12"
 -- Auto resize panes when resizing nvim window
@@ -22,7 +18,7 @@ autocmd("VimResized", {
   command = "tabdo wincmd =",
 })
 
-vim.g.neovide_multigrid = true
+-- vim.g.neovide_multigrid = true
 
 -- disable mouse
 vim.o.mouse=nil
