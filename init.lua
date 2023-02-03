@@ -11,14 +11,14 @@ vim.o.scrolloff = 8
 vim.g.neovide_scale_factor=1.0
 
 -- set guifont for neovide
-vim.o.guifont = "FiraCode Nerd Font Mono:h10"
+vim.o.guifont = "FiraCode Nerd Font Mono:h16"
 -- Auto resize panes when resizing nvim window
 autocmd("VimResized", {
   pattern = "*",
   command = "tabdo wincmd =",
 })
 
-vim.g.luasnippets_path = "your snippets path"
+vim.g.luasnippets_path = "/home/jk/.config/nvim/luasnippets"
 
 -- disable mouse
-vim.o.mouse=nil
+-- vim.o.mouse=nil

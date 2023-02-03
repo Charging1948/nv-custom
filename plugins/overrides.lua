@@ -12,7 +12,6 @@ M.treesitter = {
     "latex",
     "make",
     "norg",
-    "norg_meta",
     "markdown",
     "python",
     "regex",
